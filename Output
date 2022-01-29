@@ -214,13 +214,493 @@ PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
  <THANK TOU FOR USING THIS BANK SERVICE> 
 #########################################
 
+
+
+
+
+
+
+
+
 2. Topic Personal Loan
+__________________________________________________________________________________________________________
+############ WELCOME TO GO BANK ISLAM ############
+#  1.	Register New User                        #
+#  2.	DuitNow                                  #
+#  3.	Exit                                     #
+##################################################
+CHOOSE ONE OF THE OPTION ABOVE : 1
+
+XXXXXXXXXXXXXXXXXXX NEW USER XXXXXXXXXXXXXXXXXXXXX
+
+______PLEASE INSERT THE INFORMATION DETAILS______
+
+ Full Name : NUR ANIS SHAFIQAH
+ Account Number: 8365288
+ Number Phone: 01137228116
+
+--------THANK YOU FOR REGISTERING WITH US !---------
+-------NOW YOU ARE MEMBER OF GO BANK ISLAM !--------
+__________________________________________________________________________________________________________
+############ WELCOME TO GO BANK ISLAM ############
+#  1.	Register New User                        #
+#  2.	DuitNow                                  #
+#  3.	Exit                                     #
+##################################################
+CHOOSE ONE OF THE OPTION ABOVE : 2
+
+XXXXXXXXXXXXXXXXXXX DuitNow XXXXXXXXXXXXXXXXXXXXX
+
+Your Account Number : 8365288
+
+______PLEASE INSERT THE INFORMATION DETAILS______
+Recipient Bank Name : MAYBANK
+Recipient Account : 7254162
+Recipient Name : KARISMA BINTI KAPOOR
+Recipient Reference : COLLEAGE
+Amount : RM 300
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^  *Fee : 2%                                                           ^
+^  *Please take note that RM1.00 will be charged for every transaction ^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+CHOOSE 1 TO CONTINUE !
+1
+Total that have been charged : RM 307.00
+
+
+-----------------------------------------------------
+          **TRANSACTION SUCCESSFULL**                
+-----------------------------------------------------
+
+DO YOU WANT TO ADD ANOTHER TRANSACTION? (Y/N) : Y
+Your Account Number : 8365288
+
+______PLEASE INSERT THE INFORMATION DETAILS______
+Recipient Bank Name : BANK ISLAM
+Recipient Account : 832661
+Recipient Name : AIMAN HAKIM BIN RIDZA
+Recipient Reference : SALARY
+Amount : RM 1000
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^  *Fee : 2%                                                           ^
+^  *Please take note that RM1.00 will be charged for every transaction ^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+CHOOSE 1 TO CONTINUE !
+1
+Total that have been charged : RM 1021.00
+
+
+-----------------------------------------------------
+          **TRANSACTION SUCCESSFULL**                
+-----------------------------------------------------
+
+DO YOU WANT TO ADD ANOTHER TRANSACTION? (Y/N) : N
+__________________________________________________________________________________________________________
+############ WELCOME TO GO BANK ISLAM ############
+#  1.	Register New User                        #
+#  2.	DuitNow                                  #
+#  3.	Exit                                     #
+##################################################
+CHOOSE ONE OF THE OPTION ABOVE : 3
+------------------------------------------------ 
+       THANK YOU FOR USING GO BANK ISLAM         
+------------------------------------------------ 
+______________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
 
 
 3. Topic Credit Card
+This program for Credit Card utility
+
+1.payment using credit card
+2.Gift shop
+3.Credit Card Calculator
+4.stop
+
+**************************************************************************************
+
+choose what you want to do:
+1
+You choose credit card payment
+Welcome to credit card payment
+purchase for smartphone and laptop made in 10/6/2021:
+
+how much ammount for smartphone:
+3000
+whats ammount for laptop:
+4000
+
+purchase for petrol,air plane ticket, insurance and house debt made in 20/6/2021:
+
+how much ammount for petrol:
+50
+how much ammount for air plane ticket:
+300
+how much ammount for insurance:
+75
+how much ammount for house debt:
+85
+
+purchase for car devt and hotel booking made in 30/6/2021:
+
+how much ammount for car debt:
+350
+how much ammount for hotel booking:
+80
+Purchase to be made in June using Credit Card:
+_____________________________________________
+|DATE       |ITEM                  |PRICE    |
+|___________|______________________|_________|
+| 10/6/2021 |* SMARTPHONE          |RM3000.0 |
+|           |* LAPTOP              |RM4000.0 |
+|___________|______________________|_________|
+| 20/6/2021 |*PETROL               |RM50.0   |
+|           |*AIRPLANE TICKET      |RM300.0  |
+|           |*INSURANCE            |RM75.0   |
+|           |*HOUSE DEBT           |RM85.0   |
+|___________|______________________|_________|
+| 30/6/2021 |*CAR DEBT             |RM350.0  |
+|           |*HOTEL BOOKING        |RM80.0   |
+|___________|______________________|_________|
+_______________________________________________________________________________
+|TYPE |NAME                          | CREDIT CARD NUMBER| EXPARITION DATE| CCV|
+|_____|______________________________|___________________|________________|____|
+|  1  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|1111-2222-3333-4444|     21/27      | 445|
+|_____|______________________________|___________________|________________|____|
+|  2  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|2324-5957-9128-5387|     09/28      | 499|
+|_____|______________________________|___________________|________________|____|
+|  3  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|7979-6124-6996-9000|     01/25      | 321|
+|_____|______________________________|___________________|________________|____|
+Choose what credit type you want to use:
+3
+You choose Bank Rakyat Platinum Explore Credit Card-i
+Your balance for this credit card is65000.0
+You have 5% cashback for this credit card
+Your limit for Bank Rakyat Platinum Explore Credit Card-i is:57060.0
+Your Cashback is:RM57060.19
+Total debt to be pay per monthly is RM:661.6666666666665
+Your unpaid Debt for this credit card is RM1000
+
+Whats you current money:
+5000
+The annual interest rate for 3 credit card is 15%
+your charge payment for this month is RM:
+661.67
+Your money left is RM:
+4338.33
+**************************************************************************************
+
+choose what you want to do:
+5
+this command didn't exist
+**************************************************************************************
+
+choose what you want to do:
+2
+You choose gift shop
+
+
+Welcome Gift Shop:
+___________________________________
+|ITEM                  |ITEM CODE  |
+|______________________|___________|
+|* Samsung Smartphone  |    1      |
+|* Trip to Langkawi    |    2      |
+|*GCS Ticket Movie     |    3      |
+|*PS4                  |    4      |
+|*ASUS Laptop          |    5      |
+|______________________|___________|
+
+You have 30 points in your credit card
+
+You can choose 3 Item in Gift Shop, due to purchase made this month
+Choose item that you interest in the point shop:
+4
+you choose PS4
+You have 2 left to choose your gift
+Choose item that you interest in the point shop:
+7
+the item didnt have in this shop
+You have 2 left to choose your gift
+Choose item that you interest in the point shop:
+5
+you choose ASUS Laptop
+You have 1 left to choose your gift
+Choose item that you interest in the point shop:
+2
+you choose Trip to Langkawi
+You have 0 left to choose your gift
+We hope you like the gift
+
+**************************************************************************************
+
+choose what you want to do:
+3
+You choose credit card calculator
+Welcome to payment calculator
+This programm will calculate how much money you use to pay up credit card debt in a month
+
+select how many probability you want to see: 3
+
+_________________________________________________________________________
+The 1 calculation
+how much you invest for this credit card: 5000
+Anual interst rate for this credit card: 15
+Enter your payment for this month:
+250
+
+interst: 62.5
+Paid ammount: 5062.5
+Balance of debt left: 4812.5
+_________________________________________________________________________
+
+The 2 calculation
+how much you invest for this credit card: 3000
+Anual interst rate for this credit card: 12
+Enter your payment for this month:
+150
+
+interst: 30.0
+Paid ammount: 3030.0
+Balance of debt left: 2880.0
+_________________________________________________________________________
+
+The 3 calculation
+how much you invest for this credit card: 7500
+Anual interst rate for this credit card: 22
+Enter your payment for this month:
+750
+
+interst: 137.5
+Paid ammount: 7637.5
+Balance of debt left: 6887.5
+_________________________________________________________________________
+
+**************************************************************************************
+
+choose what you want to do:
+4
+thank you for using our program
+
+
+
+
+
+
+
+
+
+
 
 
 4. Topic Housing Loan
+------------------------------------- 
+
+
+ WELCOME TO MAYBANK BANK BERHAD 
+
+------------------------------------- 
+
+
+MENU
+
+1. REGISTER 
+
+2. LOAN CALCULATOR 
+
+3. TYPE HOUSE 
+
+4. E-STATEMENT 
+
+5. EXIT 
+
+SELECT CHOOSE: 1
+ 
+ PLEASE ENTER YOUR NAME: MUHAMMAD YASRI BIN ROSLAN 
+ 
+ PLEASE ENTER YOUR PHONE NUMBER : 011234568
+ 
+ PLEASE ENTER YOUR ACCOUNT NUMBER: 326235654
+
+MENU
+
+1. REGISTER 
+
+2. LOAN CALCULATOR 
+
+3. TYPE HOUSE 
+
+4. E-STATEMENT
+
+5. EXIT 
+
+SELECT CHOOSE: 2
+
+ENTER YOUR NAME : 
+YASRI
+
+ENTER THE LOAN AMOUNT : 
+249000
+
+ENTER THE INTERST RATE : 
+3.80
+
+ENTER THE NUMBER OF YEARS : 
+30
+
+*---YOUR TOTAL MONTHLY PAYMENT AND TOTAL PAYMENT---*
+
+THE TOTAL MONTHLY PAYMENT IS RM 1160
+
+THE TOTAL PAYMENT IS RM 417684
+
+*THANK YOU FOR USING MAYBANK CALCULATOR *
+
+MENU
+
+1. REGISTER 
+
+2. LOAN CALCULATOR 
+
+3. TYPE HOUSE 
+
+4. E-STATEMENT
+
+5. EXIT 
+
+SELECT CHOOSE: 3
+
+PLEASE ENTER YOUR BUDGET PRICE :300000
+PACKAGE HOME 2
+SINGLE STOREY 
+PRICE RM 270000 
+HOUSE LOAN 30 YEARS 
+
+***
+PLEASE ENTER PACKAGE NUMBER IF YOU INTERESETED : 2
+
+PAKEJ 2
+
+YOUR MONTHLY PAYMENT WILL BE :RM 1350.00
+
+MENU
+
+1. REGISTER 
+
+2. LOAN CALCULATOR 
+
+3. TYPE HOUSE 
+
+4. E-STATEMENT 
+
+5. EXIT 
+
+SELECT CHOOSE: 4
+
+ENTER THE LOAN AMOUNT : 
+249000
+
+ENTER THE INTERST RATE : 
+3.80
+
+ENTER THE NUMBER OF YEARS : 
+30
+ Year No 1 : RM 167073.67
+
+ Year No 2 : RM 334147.34
+
+ Year No 3 : RM 501221.00
+
+ Year No 4 : RM 668294.67
+
+ Year No 5 : RM 835368.34
+
+ Year No 6 : RM 1002442.01
+
+ Year No 7 : RM 1169515.67
+
+ Year No 8 : RM 1336589.34
+
+ Year No 9 : RM 1503663.01
+
+ Year No 10 : RM 1670736.68
+
+ Year No 11 : RM 1837810.35
+
+ Year No 12 : RM 2004884.01
+
+ Year No 13 : RM 2171957.68
+
+ Year No 14 : RM 2339031.35
+
+ Year No 15 : RM 2506105.02
+
+ Year No 16 : RM 2673178.68
+
+ Year No 17 : RM 2840252.35
+
+ Year No 18 : RM 3007326.02
+
+ Year No 19 : RM 3174399.69
+
+ Year No 20 : RM 3341473.36
+
+ Year No 21 : RM 3508547.02
+
+ Year No 22 : RM 3675620.69
+
+ Year No 23 : RM 3842694.36
+
+ Year No 24 : RM 4009768.03
+
+ Year No 25 : RM 4176841.69
+
+ Year No 26 : RM 4343915.36
+
+ Year No 27 : RM 4510989.03
+
+ Year No 28 : RM 4678062.70
+
+ Year No 29 : RM 4845136.37
+
+ Year No 30 : RM 5012210.03
+
+
+MENU
+
+1. REGISTER 
+
+2. LOAN CALCULATOR 
+
+3. TYPE HOUSE 
+
+4. E-STATEMENT 
+
+5. EXIT 
+
+SELECT CHOOSE: 5
+
+************************************************
+
+THANK YOU FOR USING OUR SERVICE. SEE YOU AGAIN! 
+
+************************************************
+
+
+
+
+
+
+
+
 
 
 5. Topic Investment
