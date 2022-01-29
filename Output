@@ -1,0 +1,307 @@
+1. Topic Business Loan
+******************************
+<<<<<<WELCOME TO MAYBANK>>>>>>
+******************************
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+1
+----------------------------------------------------------
+This is information about SME Clean Loan 
+----------------------------------------------------------
+Eligibility:
+-Below RM25 million annual sales turnover
+-Below RM5 million outstanding loan/financing with Maybank
+-Malaysian-owned registered company
+-More than 1 year in operation
+----------------------------------------------------------
+
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+2
+There are 2 types of application method: 
+1.  By online application
+2.  By branch application
+
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+3
+Not sure which application method suits you better? Here are the key differences to help you decide:
+
+1.  Online Application
+    a) Financing amount: RM10,000 – RM250,000
+    b) Financing tenure: Up to 5 years
+    c) Business operation period: Minimum 1 year
+
+2.  Branch Application
+    a) Financing amount: RM50,001– RM1,500,000
+    b) Financing tenure: Up to 7 years
+    c) Business operation period: Minimum 3 year
+
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+4
+The interest rate is 4.5%
+
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+5
+Enter your name: 
+aisyah
+Enter your number phone: 
+01156533696
+Enter your account number: 
+02458713690504
+Do you have outstanding loan with Maybank (1 for yes  | 2 for no): 
+1
+How many loan did you make before: 
+2
+Enter amount of 1 loan: 
+50000
+Enter amount of 2 loan: 
+20000
+Enter business operation period (in months): 
+24
+Enter your annual revenue: 
+15000
+Enter the amount of loan: 
+60000
+Enter financing tenure: 
+7
+
+Monthly payment is RM 834.01
+Total payment is RM 70056.81
+
+RECORD HAS BEEN ADDED SUCCESSFULLY!!
+
+-------------------------------------------
+DO YOU WANT TO ADD ANOTHER INPUT (Y/N): 
+y
+-------------------------------------------
+Enter your name: 
+nisa
+Enter your number phone: 
+0145236987
+Enter your account number: 
+02458736910546
+Do you have outstanding loan with Maybank (1 for yes  | 2 for no): 
+2
+Enter business operation period (in months): 
+60
+Enter your annual revenue: 
+80000
+Enter the amount of loan: 
+100000
+Enter financing tenure: 
+7
+
+Monthly payment is RM 1390.02
+Total payment is RM 116761.35
+
+RECORD HAS BEEN ADDED SUCCESSFULLY!!
+
+-------------------------------------------
+DO YOU WANT TO ADD ANOTHER INPUT (Y/N): 
+y
+-------------------------------------------
+Enter your name: 
+ali
+Enter your number phone: 
+0123654789
+Enter your account number: 
+02365914871245
+Do you have outstanding loan with Maybank (1 for yes  | 2 for no): 
+2
+Enter business operation period (in months): 
+36
+Enter your annual revenue: 
+60000
+Enter the amount of loan: 
+70000
+Enter financing tenure: 
+5
+
+Monthly payment is RM 1305.01
+Total payment is RM 78300.68
+
+RECORD HAS BEEN ADDED SUCCESSFULLY!!
+
+-------------------------------------------
+DO YOU WANT TO ADD ANOTHER INPUT (Y/N): 
+n
+-------------------------------------------
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+6
+-----------------------------------------------------------------------------------------------------------
+Name                Phone               Account Number      Monthly payment(RM) Total payment(RM)
+-----------------------------------------------------------------------------------------------------------
+aisyah              01156533696         02458713690504      834.01              70056.81  
+nisa                0145236987          02458736910546      1390.02             116761.35 
+ali                 0123654789          02365914871245      1305.01             78300.68  
+-----------------------------------------------------------------------------------------------------------
+Enter 00 to back to main menu :
+00
+
+MAIN MENU
+1. Information of SME Clean Loan
+2. Type of application method
+3. Information about application method
+4. The interest rate
+5. Input information
+6. View Record
+7. Exit
+PLEASE CHOOSE ONE OF THE ABOVE OPTIONS:
+7
+#########################################
+  <<<<<<YOU CHOOSE TO EXIT>>>>>>  
+ <THANK TOU FOR USING THIS BANK SERVICE> 
+#########################################
+
+2. Topic Personal Loan
+
+
+3. Topic Credit Card
+
+
+4. Topic Housing Loan
+
+
+5. Topic Investment
+------------------------------------- 
+
+
+ WELCOME TO CIMB ISLAMIC BANK BERHAD 
+
+------------------------------------- 
+
+
+
+ This system are only for Investment only. 
+
+Menu 
+1. Register
+2. Do Invest
+3. Future Value
+4. Exit
+Select choose : 1
+ Please enter your name: MUHAMAD AIMEL DANIEL BIN LATIF
+ Please enter your phone number: 01136660272
+ Please enter your account number: 1051466874
+Menu 
+1. Register
+2. Do Invest
+3. Future Value
+4. Exit
+Select choose : 2
+ Enter your Investment amount : 
+45000
+PLEASE PUT 3 OR 6 OR 12 ONLY!
+ Enter Investment tenure : 
+12
+ Profit Payable to Customer : RM 155.34
+
+ Accumulated Profit : RM 1864.11
+
+ Total Amount : RM 46864.11
+
+Menu 
+1. Register
+2. Do Invest
+3. Future Value
+4. Exit
+Select choose : 3
+Month       Future Value
+ Month No 1 : RM 45155.34
+
+ Month No 2 : RM 45310.68
+
+ Month No 3 : RM 45466.03
+
+ Month No 4 : RM 45621.37
+
+ Month No 5 : RM 45776.71
+
+ Month No 6 : RM 45932.05
+
+ Month No 7 : RM 46087.40
+
+ Month No 8 : RM 46242.74
+
+ Month No 9 : RM 46398.08
+
+ Month No 10 : RM 46553.42
+
+ Month No 11 : RM 46708.77
+
+ Month No 12 : RM 46864.11
+
+Menu 
+1. Register
+2. Do Invest
+3. Future Value
+4. Exit
+Select choose : 4
+------------------------------------------------ 
+
+ THANK YOU FOR USING OUR SERVICE. SEE YOU AGAIN! 
+
+------------------------------------------------ 
+
+
