@@ -203,13 +203,855 @@ public class businessLoan {
 
 }
 
+
+
+
+
+
+
+
 2. Topic Personal Account
+package bank;
+import java.util.Scanner;
+public class PersonalAccount {
+	
+	static Scanner sc = new Scanner (System.in);
+	
+	public static void main(String[] args) {
+
+int choose;
+do 
+{
+		System.out.println("__________________________________________________________________________________________________________");
+		System.out.println("############ WELCOME TO GO BANK ISLAM ############");
+		System.out.println("#  1.	Register New User                        #");
+		System.out.println("#  2.	DuitNow                                  #");
+		System.out.println("#  3.	Exit                                     #");
+		System.out.println("##################################################");
+		
+        System.out.print("CHOOSE ONE OF THE OPTION ABOVE : ");
+        choose = sc.nextInt();
+        
+int i;
+switch (choose) 
+{
+   case 1:
+       String[] user = null;
+       Register(user);
+       break;
+   case 2:
+       String DuitNow = null;
+       Duitnow(DuitNow);
+       break;
+   case 3: 
+	String exit = null;
+	exitSystem(exit);
+       break;
+}
+} while (choose != 3);
+}
+
+	static void Register(String [] user) {
+		
+        String [] name = new String[15];
+        String [] acc_number = new String[15];
+        int [] phone_number = new int[10];
+        int a = 1;
+
+        System.out.println("");
+    	System.out.println("XXXXXXXXXXXXXXXXXXX NEW USER XXXXXXXXXXXXXXXXXXXXX");
+    	System.out.println("");
+	    System.out.println("______PLEASE INSERT THE INFORMATION DETAILS______");
+	    System.out.println("");
+        System.out.print(" Full Name : ");
+        name [a]= sc.next();
+        sc.nextLine();
+        System.out.print(" Account Number: ");
+        acc_number [a]= sc.next();
+        System.out.print(" Number Phone: ");
+        phone_number[a] =sc.nextInt();
+        System.out.println("");
+        System.out.println("--------THANK YOU FOR REGISTERING WITH US !---------");
+        System.out.println("-------NOW YOU ARE MEMBER OF GO BANK ISLAM !--------");
+
+	}
+
+	static void Duitnow(Object duitNow) {
+		
+		int addedTime=0;
+		char addtransaction='X',back='X';	 
+		
+	    //Array
+	    int length=10; 
+	    int[] acc= new int[length];
+	    double[] amount1=new double[length];
+	    double total1;
+	    String[] acc1= new String[length];
+	    String[] bankname1= new String[length];
+	    String[] name1= new String[length];
+	    String[] reference1= new String[length];
+	    //Array End
+		
+		System.out.println("");
+		String anotherBank = sc.nextLine();
+		
+		System.out.println("XXXXXXXXXXXXXXXXXXX DuitNow XXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("");
+		
+        for (int i=0; i < length; i++) {
+            i=addedTime;
+		System.out.print("Your Account Number : ");
+		acc[i]= sc.nextInt();
+		System.out.println("");
+	    System.out.println("______PLEASE INSERT THE INFORMATION DETAILS______");
+	    System.out.print("Recipient Bank Name : ");
+	    bankname1[i]=sc.nextLine();
+        sc.nextLine();
+		System.out.print("Recipient Account : ");
+		acc1[i]=sc.nextLine();
+		System.out.print("Recipient Name : ");
+		name1[i]=sc.nextLine();
+		System.out.print("Recipient Reference : ");
+		reference1[i]=sc.nextLine();
+		System.out.print("Amount : RM ");
+		amount1[i]= sc.nextInt();
+			
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+		System.out.println("^  *Fee : 2%                                                           ^");
+		System.out.println("^  *Please take note that RM1.00 will be charged for every transaction ^");
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+		
+		System.out.println("CHOOSE 1 TO CONTINUE !");
+		int next1 = sc.nextInt();
+		String anotherBank1 = sc.nextLine();
+		
+		System.out.print("Total that have been charged : RM ");
+		 total1 =amount1[i]+((amount1[i]*0.02)+1);
+		System.out.printf("%.2f",  total1);	
+		System.out.println("\n");
+		
+   		System.out.println("");
+        System.out.println("-----------------------------------------------------");
+        System.out.println("          **TRANSACTION SUCCESSFULL**                ");
+        System.out.println("-----------------------------------------------------");
+        System.out.println("");
+        addedTime++;
+        //ADD transaction
+        System.out.print("DO YOU WANT TO ADD ANOTHER TRANSACTION? (Y/N) : ");
+        addtransaction=sc.next().charAt(0);
+        if (addtransaction=='N'||addtransaction=='n') {
+            back='y';
+            i=length;//break the Loop
+		
+	}
+        }
+	}
+
+
+
+
+
+
+
+
 
 
 3. Topic Credit Card
+package assigmentreal;
+
+import java.util.Scanner;
+
+public class Assigment3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner (System.in);
+		
+		int c = 0;
+		
+		System.out.println("This program for Credit Card utility");
+		System.out.println();
+		System.out.println("1.payment using credit card");
+		System.out.println("2.Gift shop");
+		System.out.println("3.Credit Card Calculator");
+		System.out.println("4.stop");
+		System.out.println();
+	
+		while(c <=100) {
+			
+		System.out.println("**************************************************************************************");
+		System.out.println();
+		System.out.println("choose what you want to do:");
+		int b = scanMe.nextInt();
+
+		if(b == 1) {
+		System.out.println("You choose credit card payment");
+		printcreditcard();
+		c++;
+		}
+		else if(b==2) {
+		System.out.println("You choose gift shop");
+		printgiftshop();
+		c++;
+		}
+		else if(b==3) {
+		System.out.println("You choose credit card calculator");
+		printCreditCardcalculator();
+		c++;
+		}
+		else if(b==4) {
+			System.out.println("thank you for using our program");
+			c=200 + c;
+		}
+		else {
+			System.out.println("this command didn't exist");
+			c++;
+
+		}
+		}
+	}
+		
+		
+		
+		public static void printcreditcard() {
+			System.out.println("Welcome to credit card payment");
+		String name;
+		
+		
+		double limit1 = 40000;// limit for credit card type
+		double limit2 = 80000;
+		double limit3 = 65000;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("purchase for smartphone and laptop made in 10/6/2021:");
+		System.out.println();
+		System.out.println("how much ammount for smartphone:");
+		double smartphone = scanMe.nextDouble();
+		System.out.println("whats ammount for laptop:");
+		double laptop = scanMe.nextDouble();
+		System.out.println();
+		
+		System.out.println("purchase for petrol,air plane ticket, insurance and house debt made in 20/6/2021:");
+		System.out.println();
+		System.out.println("how much ammount for petrol:");
+		double petrol = scanMe.nextDouble();
+		System.out.println("how much ammount for air plane ticket:");
+		double airplaneTicket = scanMe.nextDouble();
+		System.out.println("how much ammount for insurance:");
+		double Insurance = scanMe.nextDouble();
+		System.out.println("how much ammount for house debt:");
+		double houseDebt = scanMe.nextDouble();
+		System.out.println();
+		
+		System.out.println("purchase for car devt and hotel booking made in 30/6/2021:");
+		System.out.println();
+		System.out.println("how much ammount for car debt:");
+		double carDebt = scanMe.nextDouble();
+		System.out.println("how much ammount for hotel booking:");
+		double HotelBooking = scanMe.nextDouble();
+		
+		System.out.println("Purchase to be made in June using Credit Card:");
+		System.out.println("_____________________________________________");
+		System.out.println("|DATE       |ITEM                  |PRICE    |");
+		System.out.println("|___________|______________________|_________|");
+		System.out.println("| 10/6/2021 |* SMARTPHONE          |RM"+ smartphone +" |");
+		System.out.println("|           |* LAPTOP              |RM"+ laptop + " |");
+		System.out.println("|___________|______________________|_________|");
+		System.out.println("| 20/6/2021 |*PETROL               |RM"+ petrol +  "   |");
+		System.out.println("|           |*AIRPLANE TICKET      |RM"+ airplaneTicket + "  |");
+		System.out.println("|           |*INSURANCE            |RM"+ Insurance + "   |");
+		System.out.println("|           |*HOUSE DEBT           |RM"+ houseDebt + "   |");
+		System.out.println("|___________|______________________|_________|");
+		System.out.println("| 30/6/2021 |*CAR DEBT             |RM"+ carDebt +"  |");
+		System.out.println("|           |*HOTEL BOOKING        |RM"+ HotelBooking +"   |");
+		System.out.println("|___________|______________________|_________|");
+
+		
+		double totalpayment = smartphone + laptop + petrol + airplaneTicket + Insurance + houseDebt + carDebt + HotelBooking;
+		
+		
+		System.out.println("_______________________________________________________________________________");
+		System.out.println("|TYPE |NAME                          | CREDIT CARD NUMBER| EXPARITION DATE| CCV|");
+		System.out.println("|_____|______________________________|___________________|________________|____|");
+		System.out.println("|  1  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|1111-2222-3333-4444|     21/27      | 445|");
+		System.out.println("|_____|______________________________|___________________|________________|____|");
+		System.out.println("|  2  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|2324-5957-9128-5387|     09/28      | 499|");
+		System.out.println("|_____|______________________________|___________________|________________|____|");
+		System.out.println("|  3  |MUHAMMAD AFIQ IMRAN BIN AZIZAN|7979-6124-6996-9000|     01/25      | 321|");
+		System.out.println("|_____|______________________________|___________________|________________|____|");
+
+
+		
+
+			
+			System.out.println("Choose what credit type you want to use:");
+			int a = scanMe.nextInt();
+		if(a==1) {
+			
+			System.out.println("You choose CIMB e Credit Card");
+			System.out.println("Your balance for this credit card is" + limit1);
+			double balance = limit1 - totalpayment;
+			System.out.println("Your limit for CIMB e Credit Card is:" + balance);
+			
+		}
+		
+			
+			
+			else if(a==2) {
+				System.out.println("You choose CIMB Petronas Platinum MasterCard");
+				System.out.println("Your balance for this credit card is" + limit2);
+				System.out.println("You have 7% cashback for this credit card");
+				double balance = limit2 - totalpayment;
+				double cashback = (0.07 / 100) * (petrol);
+				double balance2 = balance + cashback;
+				System.out.println("Your limit for CIMB Petronas Platinum MasterCard is:RM" + balance);
+				System.out.println("Your Cashback is:RM" + balance2);
+				
+			}
+			else if(a==3) {
+				System.out.println("You choose Bank Rakyat Platinum Explore Credit Card-i");
+				System.out.println("Your balance for this credit card is" + limit3);
+				System.out.println("You have 5% cashback for this credit card");
+				double balance = limit3 - totalpayment;
+				double cashback = (((0.05/100) * (airplaneTicket)) + ((0.05/100) *(HotelBooking)));
+				double balance2 = balance + cashback;
+				System.out.println("Your limit for Bank Rakyat Platinum Explore Credit Card-i is:" + balance);
+				System.out.println("Your Cashback is:RM" + balance2);
+				
+			}
+			else {
+				System.out.println("Unknown Credit Card");
+			}
+		
+		// divide 12 is to know what minimum amount to pay for a month
+		double smartphoneDebt1 = (smartphone/12);
+		double laptopDebt1 = (laptop/12);
+		double petrolDebt1 = (petrol/12);
+		double airplaneTicketDebt1 = (airplaneTicket/12);
+		double InsuranceDebt1 = (Insurance/12);
+		double houseDebt1 = (houseDebt/12);
+		double carDebt1 = (carDebt/12);
+		double HotelBookingDebt1 = (HotelBooking/12);
+		double AllDebt1 = smartphoneDebt1 + laptopDebt1 + petrolDebt1 + airplaneTicketDebt1 + InsuranceDebt1 + houseDebt1 + carDebt1 + HotelBookingDebt1;
+		System.out.println("Total debt to be pay per monthly is RM:" + AllDebt1);
+		
+		System.out.println("Your unpaid Debt for this credit card is RM1000");
+		double Debt1 = 1000 * 9;// coming from the debt that not being paid last month// its from 1 - 9 June
+		double Debt2 = 6000 * 9;// 8600 came from total of Debt1 and laptop // its from 10 - 19 June
+		double Debt3 = 7074 * 9;// its from 20 - 29 June
+		double Debt4 = 7768 * 1;// June 30
+		double MonthlyInterest = (Debt1 + Debt2 + Debt3 + Debt4)/30;
+		
+		System.out.println();
+		System.out.println("Whats you current money:");
+		double currentmoney = scanMe.nextDouble();
+			double DPR = 15/365;
+			
+			
+				double MonthlyIntrestRate = DPR * 30;// * 30 because June have 30 days
+				System.out.println("The annual interest rate for 3 credit card is 15%");
+				double rate = (15/100) * (MonthlyIntrestRate);
+				double monthlydebt = AllDebt1 + rate;
+				System.out.println("your charge payment for this month is RM:");
+				System.out.printf("%.2f",monthlydebt);
+				System.out.println();
+				
+				double moneyleft = currentmoney - monthlydebt;
+				System.out.println("Your money left is RM:");
+				System.out.printf("%.2f",moneyleft);
+				System.out.println();
+	}
+
+
+		
+			public static void printgiftshop() {
+				Scanner scanMe = new Scanner (System.in);		
+			
+		System.out.println();
+		System.out.println();
+		System.out.println("Welcome Gift Shop:");
+		System.out.println("___________________________________");
+		System.out.println("|ITEM                  |ITEM CODE  |");
+		System.out.println("|______________________|___________|");
+		System.out.println("|* Samsung Smartphone  |    1      |");
+		System.out.println("|* Trip to Langkawi    |    2      |");
+		System.out.println("|*GCS Ticket Movie     |    3      |");
+		System.out.println("|*PS4                  |    4      |");
+		System.out.println("|*ASUS Laptop          |    5      |");
+		System.out.println("|______________________|___________|");
+
+		int t = 3;
+		int u = 0;
+		System.out.println();
+		System.out.println("You have 30 points in your credit card");
+		System.out.println();
+		System.out.println("You can choose 3 Item in Gift Shop, due to purchase made this month");
+		
+		while(t > 0) {
+			System.out.println("Choose item that you interest in the point shop:");
+			u = scanMe.nextInt();
+
+			if(u == 1) {
+				System.out.println("you choose Samsung Smartphone");
+				t--;
+			}
+			else if(u==2) {
+				System.out.println("you choose Trip to Langkawi");
+				t--;
+			}
+			else if(u==3){
+				System.out.println("you choose CGS Ticket Movie");
+				t--;
+			}
+			else if(u==4){
+				System.out.println("you choose PS4");
+				t--;
+			}
+			else if(u==5){
+				System.out.println("you choose ASUS Laptop");
+				t--;
+			}
+			else {
+			   System.out.println("the item didnt have in this shop");
+			}
+			System.out.println("You have" +" "+ t + " " + "left to choose your gift");
+
+		}
+		System.out.println("We hope you like the gift");
+		System.out.println();
+			
+			}
+		
+
+	   	
+	
+		public static void printCreditCardcalculator() {
+			Scanner scanMe = new Scanner (System.in);
+		System.out.println("Welcome to payment calculator");
+		System.out.println("This programm will calculate how much money you use to pay up credit card debt in a month");
+		System.out.println();
+		
+		
+		
+
+		System.out.print("select how many probability you want to see: ");
+		int probability = scanMe.nextInt();
+		System.out.println();
+		System.out.println("_________________________________________________________________________");
+		
+		for(int ii=1; ii <= probability; ii++ ) {
+			System.out.println("The "+ ii + " calculation" );
+		    System.out.print("how much you invest for this credit card: ");
+		 	double investment = scanMe.nextDouble();
+		 	System.out.print("Anual interst rate for this credit card: ");
+			double rate = scanMe.nextDouble();
+			System.out.println("Enter your payment for this month:");
+			double payment = scanMe.nextDouble();
+			System.out.println();
+			double percentageInterest = (investment * rate)/(12);
+			double interest = (percentageInterest / 100);
+			System.out.println("interst: " + interest);
+			double PaidAmount = interest + investment;
+			System.out.println("Paid ammount: " + PaidAmount);
+			double balance = PaidAmount - payment;
+			System.out.println("Balance of debt left: " + balance);
+			System.out.println("_________________________________________________________________________");
+			
+			System.out.println();
+
+		};
+
+	}
+}
+
+
+
+
+
+
+
+
 
 
 4. Topic Housing Loan
+package Assingment3;
+
+import java.util.Scanner;
+
+public class codingYasri {
+
+	
+static Scanner sc = new Scanner (System.in);
+		
+		public static void main(String[] args) {
+		       
+			// TODO Auto-generated method stub
+			
+			System.out.println("------------------------------------- \n");
+	        System.out.println("\n WELCOME TO MAYBANK BANK BERHAD \n");
+	        System.out.println("------------------------------------- \n");
+	        
+	        int menu;
+	        
+	        do {
+	        	
+	        	 System.out.println("\nMENU");
+	             System.out.println("\n1. REGISTER ");
+	             System.out.println("\n2. LOAN CALCULATOR ");
+	             System.out.println("\n3. TYPE HOUSE ");
+	             System.out.println("\n4. E-STATEMENT ");
+	             System.out.println("\n5. EXIT ");
+	             System.out.print("\nSELECT CHOOSE: ");
+	             menu = sc.nextInt();
+	        
+	           
+	            
+	             int i;
+	            
+	             int formatter = 0;
+	             
+	             switch (menu)
+	            
+	             {
+	            
+	             case 1:
+	            	
+	            	 String [] housingloan=null ;
+	            	 
+	            	 Register (housingloan);
+	            	 
+	            	 break;
+	             
+	             case 2:
+	            	
+	            	 Object loancalculator=null;
+	            	 
+	            	 calculator(loancalculator);
+	            	 
+	            	 break;
+	             
+	             case 3:
+	             
+	            	 String[] housetype = null;
+					
+	            	 House(housetype);
+	             	
+	            	 break;
+	             	
+	             case 4:
+	            	
+	            	 futurehousevalue();
+	            	 
+	            	 break;
+	             
+	             case 5:
+	            	 
+	            	 String exit =null;
+	            	
+	            	 exitSystem();
+	            	 
+	            	 break; 
+	                
+	            
+	             }
+	        
+	        
+	        }while (menu != 5);
+		
+		}
+
+	        
+		static void Register(String[] housingloan) {
+		        
+	        	
+			Scanner scan = new Scanner (System.in);
+	        
+			String [] name = new String[15];
+	        
+			int [] phone_number = new int[10];
+	        
+			String [] acc_number = new String[15];
+	        
+			int a = 1;
+	            
+	           
+			System.out.print(" \n PLEASE ENTER YOUR NAME: ");
+	        
+			name [a]= scan.next();
+	        
+			scan.nextLine();
+	        
+			System.out.print(" \n PLEASE ENTER YOUR PHONE NUMBER : ");
+	        
+			phone_number[a] =scan.nextInt();
+	            
+	           
+			System.out.print(" \n PLEASE ENTER YOUR ACCOUNT NUMBER: ");
+	        
+			acc_number [a]= scan.next();
+		
+		
+		}
+	       
+		static void calculator (Object loancalculator){
+		
+			
+			System.out.println("\nENTER YOUR NAME : ");
+			
+			String name = sc.next();
+				
+			System.out.println("\nENTER THE LOAN AMOUNT : ");
+				
+			double loan =sc.nextDouble();
+			
+			System.out.println("\nENTER THE INTERST RATE : ");
+				
+			double interest = sc.nextDouble();
+				
+			double monthlyinterest = interest /(12*100);
+				
+			System.out.println("\nENTER THE NUMBER OF YEARS : ");
+			
+			double time = sc.nextDouble();
+			
+			double years = time * 12;
+			
+			double monthlypayment= (loan*monthlyinterest*Math.pow(1+monthlyinterest,years))/(Math.pow(1+monthlyinterest,years)-1);
+			
+			double totalpayment = monthlypayment * years;
+			
+			
+			System.out.println("\n*---YOUR TOTAL MONTHLY PAYMENT AND TOTAL PAYMENT---*");
+			
+			System.out.println("\nTHE TOTAL MONTHLY PAYMENT IS RM "+ (Math.round(monthlypayment)));
+	        
+	        System.out.println("\nTHE TOTAL PAYMENT IS RM " + (Math.round(totalpayment)));
+	        
+	        System.out.println("\n*THANK YOU FOR USING MAYBANK CALCULATOR *");
+		
+		}
+		
+		
+		static void House (String [] housetype) {
+			
+			
+			String home="";
+			
+			int loan;
+			
+			float pay;
+		
+		
+		
+			System.out.print("\nPLEASE ENTER YOUR BUDGET PRICE :");
+		    
+			loan=(int)sc.nextDouble();
+		    
+			
+		        
+			if(loan>=100000 && loan<=200000){
+				home="1";
+	            pay=130000/200;
+	            System.out.println("PACKAGE HOME 1 ");
+	            System.out.println("APARTMENT");
+	            System.out.println("PRICE RM 130000 ");
+	            System.out.println("HOUSE LOAN 30 YEARS");
+		            
+		         
+			}
+		         
+		         
+			else if (loan>=200000 && loan<=300000){
+		           
+				 home="2";
+		            pay=270000/200;
+		            System.out.println("PACKAGE HOME 2");
+		            System.out.println("SINGLE STOREY ");
+		            System.out.println("PRICE RM 270000 ");
+		            System.out.println("HOUSE LOAN 30 YEARS ");
+		            
+		            
+			}
+		         
+		       
+			else if (loan>=300000 && loan<=400000) {
+		        	 
+				 home="3";
+	              pay=320000/200;
+	        	  System.out.println("PACKAGE HOME 3");
+	              System.out.println("DOUBLE STOREY ");
+	              System.out.println("PRICE RM 320000 ");
+	              System.out.println("HOUSE LOAN 30 YEARS ");
+		              
+		         
+			}
+		         
+		          
+			else if (loan>=400000 && loan<=600000) {
+		        	 
+				 home="4";
+	              pay=550000/200;
+	        	  System.out.println("PACKAGE HOME 4");
+	              System.out.println("SEMI D DOUBLE STOREY ");
+	              System.out.println("PRICE RM 550000 ");
+	              System.out.println("HOUSE LOAN 30 YEARS ");
+		              
+		          
+			}
+		         
+		         
+			else if (loan>=600000 && loan<=1000000) {
+		        	 
+				 home="5";
+	              pay=1000000/200;
+	        	  System.out.println("PACKAGE HOME 5");
+	              System.out.println("BUNGLOW");
+	              System.out.println("PRICE RM 1000000 ");
+	              System.out.println("HOUSE LOAN 30 YEARS ");
+		          
+			}
+		         	
+			System.out.print("\n***");
+		    
+			System.out.print("\nPLEASE ENTER PACKAGE NUMBER IF YOU INTERESETED : ");
+		    
+			home=sc.next();
+		    
+			home.toUpperCase();
+		    
+			if(home.equalsIgnoreCase(home)){
+		    
+				switch(home){
+		           
+		            
+				case "1":
+	            
+					pay=(130000/200);
+	               
+					System.out.println("\nPAKEJ "+home);
+		            System.out.printf("\nYOUR MONTHLY PAYMENT WILL BE :RM %.2f%n",pay);
+		                                              
+		            break;
+		                                                                                               
+		            
+				case "2":
+	            
+					pay=(270000/200);
+	               
+					System.out.println("\nPAKEJ "+home);
+		            System.out.printf("\nYOUR MONTHLY PAYMENT WILL BE :RM %.2f%n",pay);
+		            									
+		            break;
+		            									
+		           
+				case "3":
+	               
+					pay=(320000/200);
+	               
+					System.out.println("\nPAKEJ "+home);
+		            System.out.printf("\nYOUR MONTHLY PAYMENT WILL BE :RM %.2f%n",pay);
+														
+		            break;
+														
+		           
+				case "4":
+	             
+					pay=(550000/200);
+	              
+					System.out.println("\nPAKEJ "+home);
+		            System.out.printf("\nYOUR MONTHLY PAYMENT WILL BE :RM %.2f%n",pay);
+														
+		            break;
+														
+		            
+				case "5":
+	               
+					pay=(1000000/200);
+	              
+					System.out.println("\nPAKEJ "+home);
+		            System.out.printf("\nYOUR MONTHLY PAYMENT WILL BE :RM %.2f%n",pay);
+														
+		            break;
+		            
+				}
+			  
+			}
+		
+		}
+		            
+		        
+		static void futurehousevalue(){
+		            	 
+		            	
+			System.out.println("\nENTER THE LOAN AMOUNT : ");
+		         		 
+		            	
+			double loan =sc.nextDouble();
+		         				
+		         		
+			System.out.println("\nENTER THE INTERST RATE : ");	
+		         		
+			double interest = sc.nextDouble();
+		         		
+			double monthlyinterest = interest /(12*100);
+
+		         		
+			System.out.println("\nENTER THE NUMBER OF YEARS : ");
+		      
+			double time = sc.nextDouble();
+		    
+			double years = time * 12;
+		         				
+		    
+			for(int i = 0; i < time; i++) {	         		
+	                  
+		         		 
+				double monthlypayment = (loan*monthlyinterest*Math.pow(1+monthlyinterest,years))/(Math.pow(1+monthlyinterest,years)-1);
+		        
+				double totalpayment = monthlypayment * years;
+		        
+				double yearlypayment = monthlypayment * 12;
+		        
+				double allpayment = yearlypayment * ((i+1)*12);
+		         			    	
+		        
+				System.out.format(" Year No "+ (i+1) +" : RM %.2f", allpayment);
+		        
+				System.out.println("\n");
+		         	  
+		         		 
+		         		 
+		        
+			}
+		         		 
+		    
+		}
+			  
+		static void exitSystem () {
+				  
+				  
+				 
+			System.out.println("\n************************************************");
+			
+			System.out.println("\nTHANK YOU FOR USING OUR SERVICE. SEE YOU AGAIN! ");
+			
+			System.out.println("\n************************************************");
+	
+		  
+		}  
+			  
+		
+}
+
+
+
+
+
+
+
+
+
 
 
 5. Topic Investment
